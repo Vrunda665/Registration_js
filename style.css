@@ -1,0 +1,117 @@
+body{
+    margin : 0px;
+    background-image: url('bg.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(46, 194, 247, 0.7);
+}
+.reg-form {
+    border-style: solid;
+    padding: 10px;
+    padding-left: 30px;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(248, 243, 243 , 0.60);
+    text-align: left;
+}
+
+.reg-table {
+    border-style: solid;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgba(253, 223, 244, 0.6);
+}
+
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+.reg-table th {
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+.reg-table td {
+    background-color: #f6f6e8;
+    text-align: center;
+    padding: 15px;
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: rgba(46, 194, 247, 0.7);
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: green;
+    color: white;
+    padding: 10px 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+input[type=reset] {
+    width: 20%;
+    background-color: green;
+    color:white;
+    padding: 10px 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+    color: #0000ee;
+    margin-right: 4px;
+    background-color : rgb(249, 175, 175);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
